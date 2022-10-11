@@ -24,3 +24,10 @@ a {
     background: black;
   }
 }
+
+@font-face {
+  font-family: "Rubik Maze";
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rubik Maze'), url("./Rubik_Maze/RubikMaze-Regular.ttf");
+}

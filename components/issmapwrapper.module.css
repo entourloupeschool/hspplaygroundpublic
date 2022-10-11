@@ -1,0 +1,41 @@
+.mapwrapper{
+    width: inherit;
+    height: 30rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.map{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapperdisplay{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.example-fullscreen {
+    top: 5em;
+    right: 0.5em;
+}
+
+.fullscreen:-webkit-full-screen {
+    height: 100%;
+    margin: 0;
+}
+.fullscreen:-ms-fullscreen {
+    height: 100%;
+}
+
+.fullscreen:fullscreen {
+    height: 100%;
+}
+
+.fullscreen {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 400px;
+}
